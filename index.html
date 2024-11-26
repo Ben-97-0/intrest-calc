@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Compound interest calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body id="body">
+    <h1><span id="span2">Compound interest calculator</span></h1>
+    <hr />
+    <p>
+      This calculator will calculate how much compound interest you make per
+      year
+    </p>
+    <p>Amount invested</p>
+    $<input id="amount" type="number" />
+
+    <p>Interest rate per year</p>
+    %<input id="year" type="number" />
+    <span id="imgtag"></span>
+
+    <p>How long (years)</p>
+    <input id="long" type="number" />
+
+    <p>How many times do you compound your interest per year</p>
+    <input id="compound" type="number" min="0" />
+
+    <p id="earn">How much you earned</p>
+    <p><span id="output"></span></p>
+    <p>
+      <button id="calc">Calculate Interest</button>
+      <button id="rand">Random numbers</button>
+      <button id="clear">Clear</button>
+    </p>
+    <button id="light">Light Mode</button>
+    <button id="dark">Dark Mode</button>
+    <p></p>
+
+    <p>
+      <a
+        href="https://www.investor.gov/additional-resources/information/youth/teachers-classroom-resources/what-compound-interest"
+        id="link"
+        target="_blank"
+        >Learn More</a
+      >
+    </p>
+  </body>
+</html>

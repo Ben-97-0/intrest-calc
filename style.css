@@ -1,0 +1,57 @@
+body {
+  width: 600px;
+  margin: 0 auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px 20px;
+  border-radius: 25px;
+}
+html {
+  background-image: url("img/how-does-the-stock-market-work-2560x1440.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+}
+
+#output {
+  margin-left: 1px;
+}
+#link {
+  font-size: 10px;
+}
+.tabe {
+  border: 2px solid rgb(0, 0, 0);
+}
+img {
+  float: right;
+}
+#compound,
+#long {
+  margin-left: 7.5px;
+}
+#calc:hover {
+  background: greenyellow;
+  transition: 0.75s;
+}
+#clear:hover {
+  background: greenyellow;
+  transition: 0.75s;
+}
+#light:hover {
+  background: greenyellow;
+  transition: 0.75s;
+}
+#dark:hover {
+  background: greenyellow;
+  transition: 0.75s;
+}
+#rand:hover {
+  background: greenyellow;
+  transition: 0.75s;
+}
+#span2 {
+  background: darkcyan;
+  padding: 15px 15px;
+  text-align: center;
+  border-radius: 15px;
+}
